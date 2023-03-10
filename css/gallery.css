@@ -1,4 +1,4 @@
-@import url(//db.onlinewebfonts.com/c/50cd2aad9c8f35800bb6beac3ad42f16?family=Azonix);
+/* @import url(//db.onlinewebfonts.com/c/50cd2aad9c8f35800bb6beac3ad42f16?family=Azonix); */
 html {
     scroll-behavior: smooth;
 }
@@ -22,7 +22,8 @@ dl {
 }
 h1 {
     text-align: center;
-    font-family: 'Azonix';
+    font-family: 'copperplate';
+    font-weight: bold;
     font-size: 100px;
     color: #fff;
 }

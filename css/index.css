@@ -1,4 +1,4 @@
-@import url(//db.onlinewebfonts.com/c/50cd2aad9c8f35800bb6beac3ad42f16?family=Azonix);
+/* @import url(//db.onlinewebfonts.com/c/50cd2aad9c8f35800bb6beac3ad42f16?family=Azonix); */
 *{
     padding: 0px;
     margin: 0px;
@@ -43,7 +43,7 @@ body{
   font-weight: bold;
   position: relative;
   top: 22px;
-  font-family: 'Azonix', sans-serif;                                             
+  font-family: 'copperplate', sans-serif;                                             
 }
 #home img{
     width: 335px;
@@ -55,7 +55,7 @@ body{
 
 h2 {
     text-align: center;
-    font-family: Azonix;
+    font-family: 'copperplate';
     font-size: 50px;
     color: #fff;
 }
