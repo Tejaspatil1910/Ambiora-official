@@ -32,7 +32,7 @@
       /* background: #011635; */
       border-radius: 4px;
       /* box-shadow: 0 5px 20px rgba(0, 0, 0, .3); */
-      height: 501px;
+      height: 520px;
       perspective: 1000;
       transition: .9s;
       /* transform-style: preserve-3d; */
@@ -45,7 +45,7 @@
       background: white;
       border-radius: 20px;
       /* box-shadow: 0 5px 20px rgba(0, 0, 0, .3); */
-      height: 480px;
+      height: 520px;
       perspective: 1000;
       transition: .9s;
       /* transform-style: preserve-3d; */
@@ -134,7 +134,7 @@
     color: whitesmoke;
     text-align: center;
   }
-  @media screen and (max-width:640px) {
+  @media screen and (max-width:800px) {
     .container{
         display: block;
     }

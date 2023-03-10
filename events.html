@@ -70,7 +70,7 @@
                   <span>15</span>
                   <span>16</span>
                   <span>17</span>
-                  <span><button onclick="events('e16');" class="event">18</button></span>
+                  <span>18</span>
                   <span><button onclick="events('e17');" class="event">19</button></span>
                   
                 </div>
@@ -101,33 +101,30 @@
             </div>
             </div>
             <div class="calendar2">
-                <div style="color: #07074fe3;font-size: large; width: 100%; margin: 4%;" id="e15">
-                    <h1>Events on 11th March</h1><br>
-                    <h3>TECH HUNT <span style="float: right; margin-right: 8%;">10:00 AM - 12:00 PM</span></h3><br>
-                    <h3>WEB DEVELOPMENT WORKSHOP <span style="float: right; margin-right: 8%;">03:00 PM - 04:00 PM</span></h3>
+                <div style="color: #07074fe3; width: 100%; margin: 4%; " id="e15">
+                    <h1 style="font-size: 40px;">Events on 11th March</h1><br>
+                    <h2 style="font-size: 30px;">TECH HUNT</h2>
+                    <h4 style="font-size: 25px;">10:00 AM - 12:00 PM</h4><br>
+                    <h2 style="font-size: 30px;">WEB DEVELOPMENT WORKSHOP</h2>
+                    <h4 style="font-size: 25px;">03:00 PM - 04:00 PM</h4>
                 </div>
-                <div style="color: #07074fe3;font-size: large; width: 100%; margin: 4%;display: none;" id="e16">
-                    <h1>Events on 18th March</h1><br>
-                    
-                    <h3>CODING HUNT</h3><br>
-                    <h3>SPON-TECH</h3><br>
-                    <h3>TYPE RACER </h3><br>
-                    <h3>MICRO CINETECH</h3><br>
-                    <h3>TECHARENA</h3><br>
-                    <h3>TECHNICAL TROUBLE-SHOOTER</h3><br>
-                    <h3>TECHOCULAR</h3><br>
-                    <h3>UAS WORKSHOP <span style="float: right; margin-right: 8%;">01:00 PM - 02:00 PM</span></h3>
-                </div>
-                <div style="color: #07074fe3;font-size: large; width: 100%; margin: 4%;display: none;" id="e17">
-                    <h1>Events on 19th March</h1><br>
-                    <h3>HACKATHON<span style="float: right; margin-right: 8%;">09:00 AM - 07:00 PM</span></h3>
+                <div style="color: #07074fe3; width: 100%; margin: 4%;display: none;" id="e17">
+                    <h1 style="font-size: 40px;">Events on 19th March</h1><br>
+                    <h2 style="font-size: 30px;">HACKATHON</h2>
+                    <h4 style="font-size: 25px;">09:00 AM - 07:00 PM</h4><br>
+                    <h2 style="font-size: 30px;">CODING HUNT</h2><br>
+                    <h2 style="font-size: 30px;">SPON-TECH</h2><br>
+                    <h2 style="font-size: 30px;">TYPE RACER </h2><br>
+                    <h2 style="font-size: 30px;">MICRO CINETECH</h2><br>
+                    <h2 style="font-size: 30px;">TECHARENA</h2><br>
+                    <h2 style="font-size: 30px;">TECH. TROUBLE-SHOOTER</h2><br>
+                    <h2 style="font-size: 30px;">TECHOCULAR</h2><br>
                 </div>
             </div>
         </div>
           <script>
             function events(id){
                 document.getElementById('e15').style.display='none';
-                document.getElementById('e16').style.display='none';
                 document.getElementById('e17').style.display='none';
                 document.getElementById(id).style.display='block';
             }
