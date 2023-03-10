@@ -19,8 +19,9 @@
     background-image: url('https://github.com/kunalp03/Ambiora-official/blob/main/images/bg1.jpg?raw=true');
     background-repeat: no-repeat;
     background-size: cover;
-      background-color: #03002E;
-      font-family: 'copperplate', sans-serif;
+    background-color: #03002E;
+    font-family: 'copperplate', sans-serif;
+    /* font-family: monospace; */
   }
   
   
@@ -52,11 +53,6 @@
       width: 50%;
   }
   
-  /* Front - Calendar */
-  /* .front {
-      transform: rotateY(0deg);
-  } */
-  
   .current-date {
       border-bottom: 1px solid rgba(73, 114, 133, .6);
       display: flex;
@@ -68,6 +64,7 @@
       color: #dfebed;
       /* font-size: 1.4em; */
       font-weight: 300;
+      font-family: monospace;
   }
   
   .week-days {
@@ -129,8 +126,7 @@
     padding-top: 5%;
     padding-bottom: 5%;
     font-size: 100px;
-  
-    font-family: Azonix;
+    font-family: monospace;
     color: whitesmoke;
     text-align: center;
   }

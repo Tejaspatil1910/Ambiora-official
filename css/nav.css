@@ -31,7 +31,8 @@ nav .links li a{
     padding: 8px;
     font-weight: bold;
     font-size: 25px;
-    font-family: 'copperplate', sans-serif;
+    /* font-family: 'copperplate', sans-serif; */
+    font-family: monospace;
                                                 
 }
 nav .links li a:hover{
@@ -39,8 +40,41 @@ nav .links li a:hover{
     color: #f54d85;
 }
 
-@media screen and (min-width:969px){
-    .name{
-        display: none;
+@media screen and (max-width:969px){
+    nav .links li a{
+        padding: 0px;
+        font-size: 15px;            
     }
+    nav .left img{
+        width: 35px;
+        height: 35px;
+    }
+}
+
+@media screen and (max-width:537px){
+    nav .links li a{
+        padding: 0px;
+        font-size: 10px;            
+    }
+    nav .links li{
+        padding: 17px 10px;
+    }
+    nav .left img{
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media screen and (max-width:310px){
+    nav .links li a{
+        padding: 0px;
+        font-size: 7px;            
+    }
+    nav .links li{
+        padding: 22px 4px;
+    }
+    /* nav .left img{
+        width: 30px;
+        height: 30px;
+    } */
 }
