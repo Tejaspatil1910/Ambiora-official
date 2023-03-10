@@ -16,6 +16,9 @@
   }
   
   body {
+    background-image: url('https://github.com/kunalp03/Ambiora-official/blob/main/images/bg1.jpg?raw=true');
+    background-repeat: no-repeat;
+    background-size: cover;
       background-color: #03002E;
       font-family: 'Roboto', sans-serif;
   }
