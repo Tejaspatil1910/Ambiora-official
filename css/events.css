@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    font-family: 'copperplate', sans-serif;
+    font-family: monospace;
     list-style: none;
     margin: 0;
     outline: none;
@@ -20,7 +20,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #03002E;
-    font-family: 'copperplate', sans-serif;
+    font-family: monospace;
     /* font-family: monospace; */
   }
   
@@ -32,6 +32,7 @@
     /* margin-top: 15%; */
       /* background: #011635; */
       border-radius: 4px;
+      font-family: 'copperplate';
       /* box-shadow: 0 5px 20px rgba(0, 0, 0, .3); */
       height: 520px;
       perspective: 1000;
@@ -130,6 +131,15 @@
     color: whitesmoke;
     text-align: center;
   }
+  .heading{
+    font-size: 40px;
+  }
+  .title1{
+    font-size: 30px;
+  }
+  .time{
+    font-size: 23px;
+  }
   @media screen and (max-width:800px) {
     .container{
         display: block;
@@ -139,6 +149,15 @@
     }
     .calendar2{
         width: 90%;
+    }
+    .heading{
+      font-size: 35px;
+    }
+    .title1{
+      font-size: 27px;
+    }
+    .time{
+      font-size: 20px;
     }
     .sch{
         font-size: 50px;
