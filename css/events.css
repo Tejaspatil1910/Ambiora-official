@@ -141,9 +141,17 @@
     /* font-family: 'Trebuchet MS'; */
   }
   .time{
-    font-size: 18px;
+    float: right;
+    margin-right: 9%; 
+    font-size: 20px; 
+    margin-top: 0.7%;
   }
-  @media screen and (min-width:882px) and (max-width:1200px){
+  
+  @media screen and (min-width:882px) and (max-width:1300px){
+    .calendar2{
+      /* width: 90%; */
+      height: 600px;
+  }
     .heading{
       font-size: 36px;
     }
@@ -154,7 +162,7 @@
       font-size: 17px;
     }
   }
-  @media screen and (max-width:882px) {
+  @media screen and (min-width:575px) and (max-width:882px) {
     .container{
         display: block;
     }
@@ -163,6 +171,7 @@
     }
     .calendar2{
         width: 90%;
+        height: 550px;
     }
     .heading{
       font-size: 33px;
@@ -172,12 +181,37 @@
     }
     .time{
       font-size: 14px;
+      display: block;
+      /* float: left; */
     }
     .sch{
         font-size: 50px;
     }
   }
-
+  @media screen and (max-width:575px){
+    .container{
+      display: block;
+    }
+    .calendar{
+      width: 90%;
+    }
+    .calendar2{
+      width: 100%;
+      height: 550px;
+    }
+    .heading{
+      font-size: 33px;
+    }
+    .title1{
+      font-size: 23px;
+    }
+    .time{
+      font-size: 14px;
+      display: block;
+      /* float: left; */
+    }
+  
+  }
   @media screen and (min-width: 641px) and (max-width: 1007px) {
     .sch{
       font-size: 75px;
