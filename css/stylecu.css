@@ -5,7 +5,7 @@ body
     padding: 0px;
     margin: 0px;
     /* background-image: url('/images/background.png'); */
-    background-image:url('\images\background.png');
+    background-image:url('/images/background.png');
 
     /* background-color: rebeccapurple; */
     background-attachment: fixed;
