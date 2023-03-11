@@ -5,9 +5,9 @@ body
     padding: 0px;
     margin: 0px;
     /* background-image: url('/images/background.png'); */
-    background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 1)), url('/images/background.png');
+    background-image:url('\images\background.png');
 
-    background-color: rebeccapurple;
+    /* background-color: rebeccapurple; */
     background-attachment: fixed;
     background-size: cover;
 }
