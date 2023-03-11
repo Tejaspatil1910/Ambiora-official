@@ -10,7 +10,7 @@
     overflow-x: hidden;
 }
 body{
-    background-color: #03002E;
+    background-color: #4790a7;
 }
 .menu{
     cursor: pointer;
@@ -50,6 +50,7 @@ body{
   top: 22px;
   /* font-family: 'copperplate', sans-serif;                                              */
   font-family: 'Azonix';
+  text-align: center;
 }
 #home img{
     width: 335px;
