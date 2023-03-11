@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Azonix;
+  src: url(../fonts/Azonix.otf);
+}
+
 * {
     box-sizing: border-box;
     font-family: monospace;
@@ -127,7 +132,7 @@
     padding-top: 5%;
     padding-bottom: 5%;
     font-size: 100px;
-    font-family: monospace;
+    font-family: 'Azonix';
     color: whitesmoke;
     text-align: center;
   }

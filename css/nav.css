@@ -1,4 +1,9 @@
 /* @import url(//db.onlinewebfonts.com/c/50cd2aad9c8f35800bb6beac3ad42f16?family=Azonix); */
+@font-face {
+    font-family: Azonix;
+    src: url(../fonts/Azonix.otf);
+}
+
 nav{
     display: flex;
     justify-content: space-around;
@@ -32,7 +37,8 @@ nav .links li a{
     font-weight: bold;
     font-size: 25px;
     /* font-family: 'copperplate', sans-serif; */
-    font-family: monospace;
+    font-family: 'Azonix';
+
                                                 
 }
 nav .links li a:hover{
